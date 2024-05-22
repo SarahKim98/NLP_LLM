@@ -1,13 +1,3 @@
-## Recent updates
-* <b>2024.5.1 upload.py and query.py </b>
-* update the upload.py and query.py as composed of simple functions instead of class in each file.
-* This is for the gui.py
-* <b>2024.4.15 query</b>
-* updated the upload.py file.
-
-# line: 124 - adding {'text': node.text} in upload.py
-vectors=[(node.metadata['file_name'][:2]+node.metadata['page_label'], emb, {'text': node.text}) for node, emb in zip(nodes,embedding)],
-                    namespace=self.name_space)
 ### Tech stack
 1. Pipeline: [LlamaIndex] (https://www.llamaindex.ai/)
 2. VectorDB: [PineCone]  (https://www.pinecone.io/)
